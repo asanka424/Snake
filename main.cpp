@@ -4,6 +4,7 @@
 
 int main(int argc, char *argv[])
 {
+	
     QGuiApplication app(argc, argv);
     qmlRegisterType<SnakeCanvas>("Snake", 1, 0, "SnakeCanvas");
     QtQuick2ApplicationViewer viewer;
